@@ -7,7 +7,8 @@ class Site
     public $name;
     //本类的静态实例
     protected static $instance = null;
-    //禁用掉构造函数
+
+ //禁用掉构造函数
     private function __construct($name = "PHP")
     {
         $this->name = $name;
